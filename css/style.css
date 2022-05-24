@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+.contenitore_logo{
+    height: 70px;
+    background-color: white;
+}
+
+.contenitore_logo img{
+    height: 100%;
+    vertical-align: middle;
+}
+
+.contenitore_logo .nome_logo{
+    font-size: 40px;
+    font-weight: bold;
+    vertical-align: middle;
+}
