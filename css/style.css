@@ -114,41 +114,36 @@ button{
     border-radius: 15px;
     font-size: 12px;
     padding: 9px;
+    color: white;
 }
 
 .editorial{
     background-color: rgb(14, 135, 248);
-    color: white;
     border-color: rgb(14, 135, 248);
 
 }
 
 .goals{
     background-color: violet;
-    color: white;
     border-color: violet;
 }
 
 .recruting{
     background-color: green;
-    color: white;
     border-color: green;
 }
 
 .mobile{
     background-color: orange;
-    color: white;
     border-color: orange;
 }
 
 .website{
     background-color: rgb(238, 123, 142);
-    color: white;
     border-color: rgb(238, 123, 142);
 }
 
 .sales{
     background-color: greenyellow;
-    color: white;
     border-color: greenyellow;
 }
