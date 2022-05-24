@@ -5,6 +5,8 @@
 }
 
 body{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
     background-color: blueviolet;
 }
 
@@ -71,20 +73,79 @@ button{
     margin-left: 60px;
 }
 
-.check_titolo{
+.check_titolo, .check_titolo:before{
     font-weight: bold;
-    font-size: 20px;
-}
-
-.check_titolo:before{
-    content: '\25BC';  
+    font-size: 25px;
+    content: '\25BC';
 }
 
 .check_verde:before{
+    display: inline-block;
     content: '\2713';
     color: rgb(63, 241, 63);
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(63, 241, 63);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
 }
 
 .check_rosso:before{
+    display: inline-block;
     content: '\2717';
+    color: red;
+    width: 20px;
+    height: 20px;
+    border: 1px solid red; ;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+}
+
+.check_rosso, .check_verde{
+    padding: 5px;
+}
+
+.editorial, .goals, .recruting, .mobile, .website, .sales{
+    border-radius: 15px;
+    font-size: 12px;
+    padding: 9px;
+}
+
+.editorial{
+    background-color: rgb(14, 135, 248);
+    color: white;
+    border-color: rgb(14, 135, 248);
+
+}
+
+.goals{
+    background-color: violet;
+    color: white;
+    border-color: violet;
+}
+
+.recruting{
+    background-color: green;
+    color: white;
+    border-color: green;
+}
+
+.mobile{
+    background-color: orange;
+    color: white;
+    border-color: orange;
+}
+
+.website{
+    background-color: rgb(238, 123, 142);
+    color: white;
+    border-color: rgb(238, 123, 142);
+}
+
+.sales{
+    background-color: greenyellow;
+    color: white;
+    border-color: greenyellow;
 }
