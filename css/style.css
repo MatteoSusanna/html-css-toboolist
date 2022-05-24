@@ -60,3 +60,31 @@ button{
     border-color: grey;
 }
 /* fine stilizzazione bottoni e barra*/
+
+.barra_testo{
+    height: 600px;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.barra_testo div{
+    margin-left: 60px;
+}
+
+.check_titolo{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.check_titolo:before{
+    content: '\25BC';  
+}
+
+.check_verde:before{
+    content: '\2713';
+    color: rgb(63, 241, 63);
+}
+
+.check_rosso:before{
+    content: '\2717';
+}
